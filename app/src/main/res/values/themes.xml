@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RetroficPractice" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.RetroficPractice" parent="Base.Theme.RetroficPractice" />
+
+    <style name="chipDesign" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">#313131</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipBackgroundColor">#000000</item>
+    </style>
+</resources>
